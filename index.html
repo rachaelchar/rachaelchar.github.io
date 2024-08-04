@@ -6,159 +6,189 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="h-1/2 lg:h-screen">
-      <nav class="w-full fixed top-0 bg-teal-900 text-right">
+    <div class="h-1/2 lg:h-screen font-sans">
+      <nav
+        class="w-full fixed top-0 bg-primary text-right block z-50 uppercase"
+      >
         <div class="container mx-auto py-2 align text-white space-x-6">
-          <a class="" href="./public/files/Resume.pdf">Resume</a>
-          <a href="https://www.linkedin.com/in/rachaelcharewicz">LinkedIn</a>
-          <a href="https://github.com/rachaelchar">GitHub</a>
+          <a class="hover:text-yellow-300" href="./public/files/Resume.pdf"
+            >Resume</a
+          >
+          <a
+            class="hover:text-yellow-300"
+            href="https://www.linkedin.com/in/rachaelcharewicz"
+            >LinkedIn</a
+          >
+          <a class="hover:text-yellow-300" href="https://github.com/rachaelchar"
+            >GitHub</a
+          >
         </div>
       </nav>
-      <div class="grid grid-cols-2 gap-4">
-        <div class="">
-          <div>
-            <h1 class="text-teal-800 text-2xl">Rachael Charewicz</h1>
-            <h2 class="text-teal-800">Full Stack Software Engineer</h2>
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="absolute h-screen flex" aria-hidden="true">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="">
+              <div>
+                <h1 class="text-gray-800 text-6xl">Rachael Charewicz</h1>
+                <h2 class="text-gray-800 text-2xl">
+                  Full Stack Software Engineer
+                </h2>
+              </div>
+            </div>
 
-            <div class="flex gap-2">
-              <h2>Core Skills & Technologies</h2>
+            <div class="flex-1 flex overflow-hidden">
+              <!-- Masonry tiles -->
               <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
+                class="grid grid-cols-4 md:grid-cols-3 gap-4 flex-1 overflow-y-scroll"
               >
-                <span class="">JavaScript</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">React</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">SQL Server</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">MySQL</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">PHP</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">Laravel</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">Material UI</span>
-              </div>
-              <div
-                class="relative grid select-none items-center whitespace-nowrap rounded-lg bg-teal-300 py-1.5 px-3 font-sans text-xs font-bold uppercase text-teal-800"
-              >
-                <span class="">Figma</span>
-              </div>
-            </div>
-          </div>
-        </div>
+                <!-- Start Column 1 -->
+                <div class="grid gap-4">
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/IMG_05.JPG"
+                        alt=""
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/IMG_03.JPG"
+                        alt="R"
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Column 2 -->
+                <div class="grid gap-4">
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/IMG_02.jpg"
+                        alt=""
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-        <div class="">
-          <!-- Masonry tiles scrollable -->
-          <div class="grid grid-cols-4 md:grid-cols-2 gap-4">
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="/public/images/IMG_01.JPG"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="/public/images/IMG_02.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="/public/images/IMG_03.JPG"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="/public/images/IMG_04.JPG"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="/public/images/IMG_05.JPG"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="/public/images/IMG_06.JPG"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-                  alt=""
-                />
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/IMG_06.jpeg"
+                        alt=""
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Column 3 -->
+                <div class="grid gap-4">
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/IMG_04.JPG"
+                        alt=""
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/IMG_01.JPG"
+                        alt="Rachael kayaking"
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
