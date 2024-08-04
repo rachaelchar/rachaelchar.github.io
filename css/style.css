@@ -588,6 +588,10 @@ video {
   }
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -598,6 +602,10 @@ video {
 
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .top-0 {
@@ -645,9 +653,17 @@ video {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .max-h-fit {
   max-height: -moz-fit-content;
   max-height: fit-content;
+}
+
+.max-h-full {
+  max-height: 100%;
 }
 
 .w-full {
@@ -690,6 +706,14 @@ video {
 
 .overflow-y-scroll {
   overflow-y: scroll;
+}
+
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+.overscroll-none {
+  overscroll-behavior: none;
 }
 
 .rounded-lg {

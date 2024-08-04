@@ -6,7 +6,7 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="h-1/2 lg:h-screen font-sans">
+    <div class="h-full lg:h-screen font-sans">
       <nav
         class="w-full fixed top-0 bg-primary text-right block z-50 uppercase"
       >
@@ -24,8 +24,8 @@
           >
         </div>
       </nav>
-      <div class="relative isolate px-6 pt-14 lg:px-8">
-        <div class="absolute h-screen flex" aria-hidden="true">
+      <div class="h-full px-6 pt-14 lg:px-8">
+        <div class="fixed h-screen flex" aria-hidden="true">
           <div class="grid grid-cols-2 gap-4">
             <div class="">
               <div>
@@ -115,7 +115,29 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="grid gap-4">
+                    <div
+                      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    >
+                      <img
+                        class="rounded-t-lg"
+                        src="./public/images/CKC logo.png"
+                        alt=""
+                      />
+                      <div class="p-5">
+                        <h5
+                          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                          Title
+                        </h5>
+                        <p
+                          class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+                        >
+                          Discription
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                   <div class="grid gap-4">
                     <div
                       class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
