@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#597c06",
+        tertiary: "#E08DAC",
       },
       fontFamily: {
         sans: "Trebuchet MS",

@@ -6,34 +6,13 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="h-full lg:h-screen font-sans">
-      <nav
-        class="w-full fixed top-0 bg-primary md:text-left text-center block z-50 uppercase"
-      >
-        <div class="container mx-10 py-2 align text-white space-x-6">
-          <a
-            target="_blank"
-            class="hover:text-yellow-300"
-            href="./public/files/Resume.pdf"
-            >Resume</a
-          >
-          <a
-            target="_blank"
-            class="hover:text-yellow-300"
-            href="https://www.linkedin.com/in/rachaelcharewicz"
-            >LinkedIn</a
-          >
-          <a
-            target="_blank"
-            class="hover:text-yellow-300"
-            href="https://github.com/rachaelchar"
-            >GitHub</a
-          >
-        </div>
-      </nav>
-      <div class="px-6 pt-14 grid justify-items-center">
-        <div class="fixed h-screen p-8 flex">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
+    <div
+      class="h-full font-sans bg-repeat"
+      style="background-image: url('./public/images/palm-leaf.webp')"
+    >
+      <div class="px-6 pt-4 grid justify-items-center">
+        <div class="h-screen p-8 flex">
+          <div class="grid grid-cols-1 gap-4 flex-1">
             <div>
               <div class="text-center md:text-left">
                 <h1 class="text-gray-800 text-4xl md:text-6xl">
@@ -42,56 +21,46 @@
                 <h2 class="text-primary text-xl md:text-2xl">
                   Full Stack Software Engineer
                 </h2>
-                <!-- Core Skills -->
-                <div class="mt-4 text-l">
-                  <p class="pt-4">
-                    Hi! I'm Rachael. I've been a full stack developer since 2019
-                    when I transitioned from nonprofit marketing and enrolled in
-                    a six-month coding bootcamp at the University of New
-                    Hampshire.
-                  </p>
-                  <p class="pt-4">
-                    Since then, I've been able to do fast-paced agency work and
-                    product-based work. I have experience in
-                    <span class="text-primary font-bold text-2xl"
-                      >JavaScript</span
-                    >
-                    and have spent significant time working on a
-                    <span class="text-primary font-bold text-2xl">React</span>
-                    and
-                    <span class="text-primary font-bold text-2xl">Node</span>
-                    based operations portal for a Fortune 500 pharmaceutical
-                    company. I also have experience building an administrative
-                    portal in
-                    <span class="text-primary font-bold text-2xl">PHP</span> and
-                    <span class="text-primary font-bold text-2xl">Laravel</span
-                    >.
-                  </p>
-                  <p class="pt-4">
-                    For more about my work experience and skills, check out my
-                    <span class="text-primary underline font-bold text-2xl"
-                      ><a target="_blank" href="/public/files/Resume.pdf"
-                        >Resume</a
-                      ></span
-                    >.
-                  </p>
-                </div>
+              </div>
+              <div
+                class="container md:mx-10 py-2 text-black space-x-6 text-right grid-cols-3 flex"
+              >
+                <a
+                  target="_blank"
+                  class="hover:text-yellow-300"
+                  href="./public/files/Resume.pdf"
+                  >Resume</a
+                >
+                <a
+                  target="_blank"
+                  class="hover:text-yellow-300"
+                  href="https://www.linkedin.com/in/rachaelcharewicz"
+                  ><img
+                    src="./public/images/circle-linkedin-512.webp"
+                    style="max-width: 30px"
+                /></a>
+                <a
+                  target="_blank"
+                  class="hover:text-yellow-300"
+                  href="https://github.com/rachaelchar"
+                  ><img
+                    src="./public/images/github-mark.png"
+                    style="max-width: 30px"
+                /></a>
               </div>
             </div>
 
-            <div class="flex-1 flex overflow-y-hidden">
-              <!-- Masonry tiles -->
+            <div class="flex-1 flex">
               <div
-                class="justify-items-center grid text-center grid-cols-1 gap-4 flex-1 overflow-y-scroll"
+                class="justify-items-center grid text-center grid-cols-1 md:grid-cols-4 gap-4 flex-1"
               >
-                <!-- Start Column 1 -->
                 <div class="grid gap-4">
                   <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    class="max-w-sm bg-white rounded-lg shadow dark:bg-primary"
                   >
                     <img
                       class="rounded-t-lg"
-                      src="./public/images/IMG_05.JPG"
+                      src="./public/images/myla-and-me.JPG"
                       alt=""
                     />
                     <div class="p-5">
@@ -109,11 +78,11 @@
                 </div>
                 <div class="grid gap-4">
                   <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    class="max-w-sm bg-white rounded-lg shadow dark:bg-primary"
                   >
                     <img
                       class="rounded-t-lg"
-                      src="./public/images/IMG_02.jpg"
+                      src="./public/images/mount-willard.jpg"
                       alt=""
                     />
                     <div class="p-5">
@@ -130,27 +99,49 @@
                     </div>
                   </div>
                 </div>
-                <div class="grid gap-4 mb-12">
+                <div class="grid gap-4">
                   <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-primary"
+                    class="max-w-sm bg-white rounded-lg shadow dark:bg-primary"
                   >
                     <img
                       class="rounded-t-lg"
-                      src="./public/images/CKC logo.png"
+                      src="./public/images/ckc.jpg"
                       alt=""
                     />
                     <div class="p-5">
                       <h5
                         class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
                       >
-                        Ice Cream Experimenter
+                        Ice Cream Enthusiast
                       </h5>
                       <p class="mb-3 font-normal text-gray-900 dark:text-white">
-                        I like to make fun and unusual flavors for my unofficial
-                        ice cream brand, The Cabin Kitchen Creamery. From
-                        blueberry basil to sweet corn, I'll try anything! I love
-                        to whip up custom made pints as gifts for friends and
-                        family.
+                        I like to make fun and unusual ice cream flavors,
+                        especially as gifts for friends and family. From
+                        blueberry basil to sweet corn, I'll try anything!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid gap-4">
+                  <div
+                    class="max-w-sm bg-white rounded-lg shadow dark:bg-primary"
+                  >
+                    <img
+                      class="rounded-t-lg"
+                      src="./public/images/amateur artist.jpg"
+                      alt=""
+                    />
+                    <div class="p-5">
+                      <h5
+                        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                      >
+                        Amateur Artist
+                      </h5>
+                      <p class="mb-3 font-normal text-gray-900 dark:text-white">
+                        I list a mile long of hobbies I want to try, but I've
+                        formed a particularly strong bond with painting. When
+                        I'm playing with watercolors and acyrlics and learning
+                        new techniques, the time just slips by.
                       </p>
                     </div>
                   </div>
