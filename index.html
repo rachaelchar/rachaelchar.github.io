@@ -6,24 +6,44 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body
-    class="h-max font-sans bg-repeat"
+    class="font-sans bg-repeat h-max"
     style="background-image: url('./public/images/palm-leaf.webp')"
   >
     <div>
-      <div class="px-6 pt-4 grid justify-items-center pb-8">
-        <div class="h-screen p-8 flex">
+      <!-- Navigation -->
+      <nav class="fixed top-0 z-50 w-full shadow bg-primary">
+        <div class="px-6 py-2">
+          <div class="flex items-center justify-between">
+            <a
+              href="index.html"
+              class="text-xl font-bold text-white hover:text-yellow-300"
+            >
+              Rachael Charewicz
+            </a>
+            <div class="flex space-x-6">
+              <a href="index.html" class="font-bold text-yellow-300">Home</a>
+              <a href="portfolio.html" class="text-white hover:text-yellow-300"
+                >Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="grid px-6 pb-8 pt-14 justify-items-center">
+        <div class="flex h-screen p-8">
           <div class="p-2">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between">
+            <div class="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
               <div class="text-center md:text-left">
-                <h1 class="text-primary text-4xl md:text-6xl bold">
+                <h1 class="text-4xl text-primary md:text-6xl bold">
                   Rachael Charewicz
                 </h1>
-                <h2 class="text-gray-700 text-xl md:text-2xl pb-8">
+                <h2 class="pb-8 text-xl text-gray-700 md:text-2xl">
                   Full Stack Software Engineer
                 </h2>
               </div>
               <div
-                class="container md:mx-10 py-2 text-grey-700 space-x-6 text-right grid-cols-3 flex justify-center pb-8 md:justify-end md:pr-12"
+                class="container flex justify-center grid-cols-3 py-2 pb-8 space-x-6 text-right md:mx-10 text-grey-700 md:justify-end md:pr-12"
               >
                 <a
                   target="_blank"
@@ -55,9 +75,9 @@
               </div>
             </div>
 
-            <div class="flex-1 flex">
+            <div class="flex flex-1">
               <div
-                class="justify-items-center grid text-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 flex-1"
+                class="grid flex-1 grid-cols-1 gap-4 text-center justify-items-center md:grid-cols-2 lg:grid-cols-4"
               >
                 <div class="grid gap-4">
                   <div
@@ -94,13 +114,12 @@
                       <h5
                         class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
                       >
-                        Adventure-Seeker
+                        Nature-Lover
                       </h5>
                       <p class="mb-3 font-normal text-gray-900 dark:text-white">
-                        I love to explore new places, whether they are far away
-                        or right near home. When I'm planning a trip, I
-                        prioritise unique landscapes and new cultures, as I find
-                        that these trips leave the deepest impressions on me.
+                        Spending time in nature is how I fill up my cup. Hiking,
+                        biking, kayaking, and swimming are my favorite ways to
+                        be outside.
                       </p>
                     </div>
                   </div>
@@ -122,8 +141,9 @@
                       </h5>
                       <p class="mb-3 font-normal text-gray-900 dark:text-white">
                         I like to make fun and unusual ice cream flavors,
-                        especially as gifts for friends and family. From
-                        blueberry basil to sweet corn, I'll try anything!
+                        especially as gifts for friends and family. Some
+                        favorites have been blueberry basil, sweet corn, and
+                        orange blossom honey.
                       </p>
                     </div>
                   </div>
@@ -144,10 +164,9 @@
                         Amateur Artist
                       </h5>
                       <p class="mb-3 font-normal text-gray-900 dark:text-white">
-                        I have a list a mile long of hobbies I want to try, but
-                        I've formed a particularly strong bond with painting.
-                        When I'm playing with watercolors and acyrlics and
-                        learning new techniques, time just flies by.
+                        I enjoy basically any creative hobby that requires
+                        design; watercolors and embroidery are my current
+                        obsessions.
                       </p>
                     </div>
                   </div>
