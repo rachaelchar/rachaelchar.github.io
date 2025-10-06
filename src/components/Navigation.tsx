@@ -41,13 +41,9 @@ export default function Navigation() {
             <a
               target="_blank"
               className="hover:text-secondary"
-              href="./public/files/Resume.pdf"
+              href="/files/resume.pdf"
             >
-              <img
-                src="./public/images/cv-icon.png"
-                className="max-w-8"
-                alt="Resume"
-              />
+              <img src="/images/cv-icon.png" className="max-w-8" alt="Resume" />
             </a>
             <a
               target="_blank"
@@ -55,7 +51,7 @@ export default function Navigation() {
               href="https://www.linkedin.com/in/rachaelcharewicz"
             >
               <img
-                src="./public/images/circle-linkedin-512.webp"
+                src="/images/circle-linkedin-512.webp"
                 className="max-w-8"
                 alt="LinkedIn"
               />
@@ -66,7 +62,7 @@ export default function Navigation() {
               href="https://github.com/rachaelchar"
             >
               <img
-                src="./public/images/github-mark.png"
+                src="/images/github-mark.png"
                 className="max-w-8"
                 alt="GitHub"
               />
