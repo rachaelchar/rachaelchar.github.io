@@ -17,10 +17,10 @@ export default function AboutMe() {
           <div className="flex flex-1">
             <div className="grid flex-1 grid-cols-1 gap-8 pb-16 text-center justify-items-center md:grid-cols-2 lg:grid-cols-4">
               <div className="grid gap-4">
-                <div className="bg-[url(/public/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300 max-w-64">
+                <div className="bg-[url(/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300 max-w-64">
                   <img
                     className="w-full h-48 object-cover mb-4"
-                    src="./public/images/hike.jpg"
+                    src="/images/hike.jpg"
                     alt="dog in the woods"
                   />
                   <div className="text-center">
@@ -35,10 +35,10 @@ export default function AboutMe() {
                 </div>
               </div>
               <div className="grid gap-4">
-                <div className="bg-[url(/public/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform -rotate-1 hover:rotate-0 transition-transform duration-300 max-w-64">
+                <div className="bg-[url(/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform -rotate-1 hover:rotate-0 transition-transform duration-300 max-w-64">
                   <img
                     className="w-full h-48 object-cover object-bottom mb-4"
-                    src="./public/images/courts.jpg"
+                    src="/images/courts.jpg"
                     alt="tennis courts"
                   />
                   <div className="text-center">
@@ -54,10 +54,10 @@ export default function AboutMe() {
                 </div>
               </div>
               <div className="grid gap-4">
-                <div className="bg-[url(/public/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform rotate-2 hover:rotate-0 transition-transform duration-300 max-w-64">
+                <div className="bg-[url(/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform rotate-2 hover:rotate-0 transition-transform duration-300 max-w-64">
                   <img
                     className="w-full h-48 object-cover mb-4"
-                    src="./public/images/ckc.jpg"
+                    src="/images/ckc.jpg"
                     alt="purple ice cream in a dessert bowl with a silver spoon"
                   />
                   <div className="text-center">
@@ -74,10 +74,10 @@ export default function AboutMe() {
                 </div>
               </div>
               <div className="grid gap-4">
-                <div className="bg-[url(/public/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform -rotate-2 hover:rotate-0 transition-transform duration-300 max-w-64">
+                <div className="bg-[url(/images/paper.png)] bg-white p-4 pb-6 rounded-sm shadow-lg transform -rotate-2 hover:rotate-0 transition-transform duration-300 max-w-64">
                   <img
                     className="w-full h-48 object-cover mb-4"
-                    src="./public/images/amateur artist.jpg"
+                    src="/images/amateur artist.jpg"
                     alt="watercolor paints and paper on a table"
                   />
                   <div className="text-center">
