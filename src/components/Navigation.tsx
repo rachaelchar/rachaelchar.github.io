@@ -13,12 +13,25 @@ export default function Navigation() {
     <nav className="border-b bg-secondary/70 border-secondary">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex">
-            <div className="flex items-center flex-shrink-0">
+          <div className="flex flex-1 sm:flex-none">
+            <div className="flex justify-between w-full items-center gap-4 sm:w-auto sm:flex-shrink-0">
               <h1 className="text-xl font-bold text-foreground">
                 Rachael Charewicz
               </h1>
+              <div className="sm:hidden text-right">
+                {location.pathname === "/" ||
+                location.pathname === "/portfolio" ? (
+                  <Link to="/about" className="text-md text-primary">
+                    About Me
+                  </Link>
+                ) : (
+                  <Link to="/portfolio" className="text-md text-primary">
+                    Portfolio
+                  </Link>
+                )}
+              </div>
             </div>
+
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               {navItems.map((item) => (
                 <Link
@@ -37,7 +50,7 @@ export default function Navigation() {
               ))}
             </div>
           </div>
-          <div className="flex items-center h-16 gap-x-4">
+          <div className="hidden sm:flex items-center h-16 gap-x-4">
             <a
               target="_blank"
               className="hover:text-secondary"
